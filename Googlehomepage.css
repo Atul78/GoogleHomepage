@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+#nav{
+    display: flex;/*it shift to the top*/
+    justify-content: flex-end; /*it shift to the right*/
+    margin-top: 15px;
+}
+
+#nav a{
+    margin-right: 20px;
+}
+
+#nav a.topimage{ /* This is all for the image */
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: 32px 32px;
+    position: relative;
+}
+
+
+#middle{
+    margin-bottom: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 500px; */
+    
+
+}
+
+#logo{
+    text-align: center;
+}
+
+#searchcontainer{
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    /* border-radius: 240px; */
+    
+}
+#search, #voice{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    left: 10px;
+}
+
+#voice{
+    right: 10px;
+}
+
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0px; /* it removes the dark line from the searchbar, when we click on the searchbar */
+    width: 522px;
+    border-radius: 24px;
+    border: 1px solid rgba(182, 179, 179, 0.933);
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    height: 24px;
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px black;
+}       
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px ;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(231,231,231);
+    border: 2px solid transparent;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px black;
+    border: 2px solid #eee;
+}
+
+#links{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#footer-content{
+    background: #eee;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
