@@ -1,52 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone</title>
-    <link rel="stylesheet" type="text/css" href="GoogleHomepage.css">
+    <title>Google</title>
+    <link rel="icon" href="./icon.jpg">
+    <link rel="stylesheet" href="Googlehomepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <div id="nav"> 
-    <a class="toplink">Gmail</a>
-    <a class="toplink">Image</a>
-    <a class="topimage"> <img src="https://lh3.googleusercontent.com/ogw/ADea4I6GeQLeWLWfdPk75Awsc_axahTEeXmzIeXTJwtFLg=s32-c-mo"></a>
-    </div>
 
-    <div id="middle">
-        <div id="logo"> <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
-        
-    
-    <div id="searchcontainer">
-        <div id="search">X</div>
-        <input id="searchbar" type="text">
-        <div id="voice">Y</div>
-    </div>
+    <!-- header portion -->
+    <header class="header">
+        <ul class="list">
+            <li><a
+                    href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Google</a>
+            </li>
+            <li><a href="https://www.google.co.in/imghp?hl=te&ogbl">Images</a></li>
+            <li><img src="./Grid.png" alt="Bit" height="35px"></li>
+            <li><img src="https://lh3.googleusercontent.com/ogw/ADea4I6GeQLeWLWfdPk75Awsc_axahTEeXmzIeXTJwtFLg=s32-c-mo"
+                    alt="My Pic"></li>
+        </ul>
+    </header>
 
-    <div id="buttons">
-        <div class="button">Google Search</div>
-        <div class="button">I'm Lucky Tpday</div>
-        
-    </div>
-    <div id="links">Using Google can be in these languages:<a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCA8">English</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBA">বাংলা</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBE">తెలుగు</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBI">Marathi</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBM">தமிழ்</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBQ">ગુજરાતી</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBU">ಕನ್ನಡ</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBY">മലയാളം</a>
-        <a href="https://www.google.co.in/setprefs?sig=0__lMauV9CFOPyPeg2MN4N0GfVl7U%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiyqsvc2ezzAhWEqpUCHcELCUQQ2ZgBCBc">ਪੰਜਾਬੀ</a>
-    </div>
-    </div>
-
-    <div id="footer">
-        <div id="footer-content">
-            <a>India</a>
-            <a>Link</a>
+    <section class="hero">
+        <div class="google-logo">
+            <img src="./G-logo.png" alt="Google" title="Search for something">
         </div>
-    </div>
-    
+
+        <div class="form-container">
+            <form>
+                <label id="search">
+                    <img src="./searching.png" height="15px" width="16px">
+                </label>
+                <input type="text">
+                <label id="mic">
+                    <img src="./mic.png" height="15px" width="12px">
+                </label>
+            </form>
+        </div>
+        <div class="buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h3>India</h3>
+        </div>
+
+        <div class="footer-link">
+            <ul>
+                <li>About</li>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
 </body>
+
 </html>
